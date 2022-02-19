@@ -13,6 +13,7 @@ body {
   border: 4px solid black;
   width: 825px;
   margin: 50px auto;
+  position: relative;
 }
 
 .product-title {
@@ -81,4 +82,62 @@ body {
 .card:hover {
   background-color: white;
   color: black;
+}
+
+.sale {
+  position: absolute;
+  text-transform: uppercase;
+  top: -25px;
+  left: -30px;
+  background-color: #ec2f2f;
+  padding: 10px 20px;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.color {
+  margin-top: 10px;
+}
+
+.color-1 {
+  background-color: black;
+  padding: 5px 10px;
+  display: inline;
+}
+
+.color-2 {
+  background-color: blue;
+  padding: 5px 10px;
+  margin-left: 10px;
+  display: inline;
+}
+
+.color-3 {
+  background-color: orange;
+  padding: 5px 10px;
+  margin-left: 10px;
+  display: inline;
+}
+
+.color-4 {
+  background-color: yellow;
+  padding: 5px 10px;
+  margin-left: 10px;
+  display: inline;
+}
+
+.color-5 {
+  background-color: green;
+  padding: 5px 10px;
+  margin-left: 10px;
+  display: inline;
+}
+
+.color-6 {
+  background-color: brown;
+  padding: 5px 10px;
+  margin-left: 10px;
+  display: inline;
 }
